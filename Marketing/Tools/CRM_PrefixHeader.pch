@@ -1,0 +1,32 @@
+//
+//  CRM_PrefixHeader.pch
+//  移动营销
+//
+//  Created by Hanen 3G 01 on 16/2/23.
+//  Copyright © 2016年 Hanen 3G 01. All rights reserved.
+//
+
+#ifndef CRM_PrefixHeader_pch
+#define CRM_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* CRM_PrefixHeader_pch */
+
+
+
+#define KSCreenW [UIScreen mainScreen].bounds.size.width
+#define KSCreenH [UIScreen mainScreen].bounds.size.height
+
+//深橘色
+#define darkOrangeColor [UIColor colorWithRed:224.0f/255.0f green:84.0f/255.0f blue:39.0f/255.0f alpha:1]
+//橘黄色
+#define mainOrangeColor [UIColor colorWithRed:238.0f/255.0f green:102.0f/255.0f blue:55.0f/255.0f alpha:1]
+//黄色
+#define yellowColor [UIColor colorWithRed:248.0f/255.0f green:175.0f/255.0f blue:63.0f/255.0f alpha:1]
+
+#import "UIView+Extension.h"
+#import "UIView+ViewFrame.h"
+#import "DateTool.h"
+#import "ViewTool.h"
